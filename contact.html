@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE> Liên hệ </TITLE>
+    </HEAD>
+	  	<center>
+		<font color="pink" size ="14"> Liên hệ </font> </center>
+    <BODY>	
+	
+        <form>
+            <fieldset>
+                <legend>Thông tin của bạn:</legend>
+                <label>Họ tên:
+                    <input type="text" name="name"/>
+                </label> <br> <br>
+                <label>Email:
+                    <input type="text" name="email"/>
+                </label> <br/>
+            </fieldset>
+			<br>
+            <fieldset>
+                <legend>Đánh giá của bạn:</legend>
+                <p>Bạn biết tôi từ đâu?
+                <select name="tool">
+                    <option value="google">Google</option>
+					<option value="facebook">Facebook</option>
+                    <option value="bing">Bing</option>
+					<option value="linkedin">linkedin</option>
+                </select>
+                </p>
+                <p>Bạn sẽ quay trở lại lần nữa chứ?
+				<br>
+                <input type="radio" name="you" value="yes"/>Có 
+				<br>
+                <input type="radio" name="you" value="no"/>Không
+				<br>
+                <input type="radio" name="you" value="maybe"/>Có thể
+                </p>
+                <p>Bình luận:</p>
+                <textarea name="comments" cols="100" rows="4"></textarea>
+				<br>
+				<br>
+                <input type="submit" value="Gửi phản hồi"/>
+            </fieldset>
+        </form>
+    </BODY>
+</HTML>
